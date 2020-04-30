@@ -13,13 +13,13 @@ public final class DefaultPipelineContext<T> extends AbstractPipelineContext<T> 
     }
 
     @Override
-    public AbstractPipelineContext<T> head() {
-        return this;
+    public AbstractPipelineContext<T> next() {
+        return next;
     }
 
     @Override
-    public AbstractPipelineContext<T> tail() {
-        return next;
+    public AbstractPipelineContext<T> prev() {
+        return prev;
     }
 
     @Override

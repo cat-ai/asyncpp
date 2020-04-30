@@ -22,8 +22,8 @@ abstract class AbstractPipelineContext<T> {
         this.entity = entity;
     }
 
-    public abstract AbstractPipelineContext<T> head();
-    public abstract AbstractPipelineContext<T> tail();
+    public abstract AbstractPipelineContext<T> next();
+    public abstract AbstractPipelineContext<T> prev();
 
     public abstract void run(T t);
     public abstract void runAsync(CompletableFuture<T> f);
