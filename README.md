@@ -22,7 +22,7 @@ class StrComputationEntity extends ComputationEntity<String> {
 }
 ```
 
-Then you need an instance of Asyncpp that represents whole processing pipeline
+Then you need an instance of Asyncpp that represents whole processing pipeline, and put the computation entity to the pipeline 
 
 ```java
 import io.cat.ai.asyncpp.app.App;
