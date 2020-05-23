@@ -1,4 +1,4 @@
-# asyncpp
+# AsyncPP
 asyncpp - Asynchronous Processing Pipeline
 
 Lightweight asynchronous library
